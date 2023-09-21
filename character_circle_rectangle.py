@@ -29,17 +29,12 @@ def run_ractangle():
     for x in range(50, 750+1, 10):
         render_frame(x,90)
 
-    for y in range(90, 550+1, 10):
-        render_frame(x, y)
-        
     for x in range(750, 50, -10):
         render_frame(x,550)
     
-    pass
-
 
 while True:
-    run_circle()
+    # run_circle()
     run_ractangle()
     break
 
