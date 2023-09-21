@@ -18,7 +18,7 @@ def run_circle():
 
     # 일단 그림을 그리자
     cx, cy, r = 400, 300, 210
-    for deg in range(0, 360, 1):
+    for deg in range(0, 360, 3):
         x = cx + r * math.cos(math.radians(deg))
         y = cy + r * math.sin(math.radians(deg))
         render_frame(x,y)
